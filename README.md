@@ -2,35 +2,37 @@
 
 Tento repozitář obsahuje hotové studijní balíčky a atlasy připravené pro studenty (Anki kartičky, PDF skripta i samostatný offline webový přehrávač pro mobil a PC).
 
+- **Stránka ke stažení (Releases v1.0):** https://github.com/adalbertcechura-blip/anki_materialy/releases/tag/v1_0
 - **Webová aplikace (generátor):** https://anki-card-generator.streamlit.app/
 - **Hlavní repozitář aplikace:** https://github.com/adalbertcechura-blip/anki-card-generator
 
 ---
 
-## Dostupné sady
+## Přímé odkazy ke stažení (Releases v1.0)
 
-- **Penzum FDRH** (`penzum_fdrh.*`) – houby, lišejníky, řasy
-- **Penzum vyšších rostlin** (`penzum_vyssich_rostlin.*`) – základní sada vyšších rostlin
-- **Penzum vyšších rostlin – rozšířená verze** (`penzum_vyssich_rostlin_rozsirena_verze.*`) – rozšířená sada vyšších rostlin
-- **Všechny 3 sady v jednom souboru** (`Karty-připravené.html`) – kompletní offline přehrávač se všemi obrázky v jednom souboru
+Stačí kliknout na vybraný odkaz a soubor se rovnou stáhne:
 
----
+### Všechny 3 sady v jednom HTML souboru (Offline přehrávač)
+- **[Karty-pripravene.html](https://github.com/adalbertcechura-blip/anki_materialy/releases/download/v1_0/Karty-pripravene.html)** – samostatný HTML přehrávač se všemi 3 balíčky a fotografiemi (funguje offline bez instalace na PC, Androidu i iPhonu)
 
-## Jak soubory stáhnout z GitHubu
+### Jednotlivé sady
+| Sada | Anki (`.apkg`) | PDF atlas (`.pdf`) | HTML / Obsidian (`.zip`) |
+| :--- | :--- | :--- | :--- |
+| **Penzum FDRH** *(houby, lišejníky, řasy)* | [penzum_fdrh.apkg](https://github.com/adalbertcechura-blip/anki_materialy/releases/download/v1_0/penzum_fdrh.apkg) | [penzum_fdrh.pdf](https://github.com/adalbertcechura-blip/anki_materialy/releases/download/v1_0/penzum_fdrh.pdf) | [penzum_fdrh.zip](https://github.com/adalbertcechura-blip/anki_materialy/releases/download/v1_0/penzum_fdrh.zip) |
+| **Penzum vyšších rostlin** | [penzum_vyssich_rostlin.apkg](https://github.com/adalbertcechura-blip/anki_materialy/releases/download/v1_0/penzum_vyssich_rostlin.apkg) | [penzum_vyssich_rostlin.pdf](https://github.com/adalbertcechura-blip/anki_materialy/releases/download/v1_0/penzum_vyssich_rostlin.pdf) | [penzum_vyssich_rostlin.zip](https://github.com/adalbertcechura-blip/anki_materialy/releases/download/v1_0/penzum_vyssich_rostlin.zip) |
+| **Penzum vyšších rostlin – rozšířená verze** | [penzum_vyssich_rostlin_rozsirena_verze.apkg](https://github.com/adalbertcechura-blip/anki_materialy/releases/download/v1_0/penzum_vyssich_rostlin_rozsirena_verze.apkg) | — | [penzum_vyssich_rostlin_rozsirena_verze.zip](https://github.com/adalbertcechura-blip/anki_materialy/releases/download/v1_0/penzum_vyssich_rostlin_rozsirena_verze.zip) |
 
-1. Klikněte na vybraný soubor v seznamu výše (např. `Karty-připravené.html`, `.apkg` nebo `.pdf`).
-2. Vpravo nahoře nad náhledem klikněte na tlačítko **Download raw file** (ikona šipky dolů) nebo **Raw**.
-3. Pokud chcete stáhnout vše najednou, klikněte na hlavní stránce repozitáře na zelené tlačítko **Code → Download ZIP**.
+*(Všechny soubory najdete také pohromadě v sekci [Releases v1_0](https://github.com/adalbertcechura-blip/anki_materialy/releases/tag/v1_0).)*
 
 ---
 
 ## Jak jednotlivé formáty používat
 
-### 1. `Karty-připravené.html` (Nejjednodušší – bez instalace, funguje i na iPhonu)
+### 1. `Karty-pripravene.html` (Nejjednodušší – bez instalace, funguje i na iPhonu)
 Jeden HTML soubor, který obsahuje všechny 3 sady i všechny fotografie. Funguje **100% offline** a pamatuje si váš postup učení (chytré opakování SM-2, heatmapa, vepisovací režim, zobrazení fotek ve 2 sloupcích).
 - **PC / Mac:** Stažený soubor otevřete dvojklikem v libovolném prohlížeči (Chrome, Edge, Safari, Firefox).
 - **Android:** Otevřete stažený soubor v prohlížeči Chrome nebo přes aplikaci *Soubory*.
-- **iPhone / iPad:** Stáhněte soubor v Safari, otevřete aplikaci **Soubory** (*Files*), přejděte do *Stahování* a klepněte na `Karty-připravené.html` (otevře se v Safari připravené k učení).
+- **iPhone / iPad:** Stáhněte soubor v Safari, otevřete aplikaci **Soubory** (*Files*), přejděte do *Stahování* a klepněte na `Karty-pripravene.html` (otevře se v Safari připravené k učení).
 
 ### 2. Anki balíčky (`.apkg`)
 Pro učení v aplikaci **Anki** (PC, Mac, Android – AnkiDroid, iPhone – AnkiWeb / AnkiMobile).
